@@ -1,3 +1,4 @@
+import 'package:find_your_meal/models/meals.dart';
 import 'package:flutter/material.dart';
 import '../dummydata.dart';
 import '../widgets/disp_categories.dart';
@@ -5,10 +6,6 @@ class Categories extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Meals4U"),
-        centerTitle: true,
-      ),
       body: Padding(
         padding: const EdgeInsets.all(10),
         child: GridView(
